@@ -1,0 +1,32 @@
+.leaderboard-page{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#0f172a,#2563eb);
+}
+
+.leaderboard-card{
+  width:500px;
+  padding:30px;
+  background:#fff;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 12px 30px rgba(15,23,42,.2);
+}
+
+.leader-list{
+  margin-top:20px;
+}
+
+.player{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px;
+  margin:10px 0;
+  background:#eff6ff;
+  color:#1e293b;
+  border-left:5px solid #2563eb;
+  border-radius:10px;
+}

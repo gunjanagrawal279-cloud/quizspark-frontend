@@ -1,0 +1,96 @@
+.about-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #0f172a, #1d4ed8, #7c3aed);
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+
+/* Main Card */
+.about-card {
+  width: 750px;
+  padding: 45px;
+  border-radius: 25px;
+
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255,255,255,0.2);
+
+  box-shadow: 
+    0 20px 40px rgba(0,0,0,0.35);
+
+  color: #f8fafc;
+}
+
+
+/* Main Heading */
+.about-card h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  color: #93c5fd;
+
+  margin-bottom: 25px;
+}
+
+
+/* Sub Heading */
+.about-card h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+  color: #c4b5fd;
+
+  font-size: 26px;
+  font-weight: 600;
+}
+
+
+/* Paragraph */
+.about-card p {
+  font-size: 17px;
+  line-height: 1.8;
+
+  color: #e2e8f0;
+
+  letter-spacing: 0.3px;
+}
+
+
+/* First Paragraph Style */
+.intro {
+  font-style: italic;
+}
+
+
+/* Feature List */
+.about-card ul {
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+
+.about-card li {
+  margin: 12px 0;
+
+  font-size: 16px;
+  color: #e0f2fe;
+
+  line-height: 1.6;
+}
+
+
+/* Hover Effect */
+.about-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+
+  box-shadow:
+  0 25px 50px rgba(0,0,0,0.45);
+}
