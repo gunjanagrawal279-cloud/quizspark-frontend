@@ -1,4 +1,4 @@
-import User from "../models/user.js";
+const User = require("../models/user");
 
 const submitScore = async (req, res) => {
   try {
@@ -16,7 +16,10 @@ const submitScore = async (req, res) => {
       user,
     });
   } catch (err) {
-    res.status(500).json({ success: false, message: err.message });
+    res.status(500).json({
+      success: false,
+      message: err.message,
+    });
   }
 };
 
@@ -39,4 +42,7 @@ const getLeaderboard = async (req, res) => {
   }
 };
 
-export default { submitScore, getLeaderboard };
+module.exports = {
+  submitScore,
+  getLeaderboard,
+};
