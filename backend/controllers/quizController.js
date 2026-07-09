@@ -1,4 +1,4 @@
-const User = require("../models/User");
+import User from "../models/user.js";
 
 const submitScore = async (req, res) => {
   try {
@@ -20,7 +20,6 @@ const submitScore = async (req, res) => {
   }
 };
 
-module.exports = { submitScore };
 const getLeaderboard = async (req, res) => {
   try {
     const users = await User.find()
@@ -39,4 +38,5 @@ const getLeaderboard = async (req, res) => {
     });
   }
 };
-module.exports = { submitScore, getLeaderboard };
+
+export default { submitScore, getLeaderboard };
