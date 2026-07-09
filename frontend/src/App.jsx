@@ -5,7 +5,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Quiz from "./pages/Quiz";
 import Result from "./pages/Result";
-import Leaderboard from "./pages/Leaderboard";
+import Leaderboard from "./pages/leaderboard";
 import About from "./pages/About";
 
 function App() {
